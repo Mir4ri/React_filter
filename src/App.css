@@ -1,0 +1,99 @@
+html,body {
+  height: 100%;
+}
+
+*::selection {
+  background: #91e9ff;
+}
+
+*::-moz-selection {
+  background: #91e9ff;
+}
+
+#root {
+  height: 100%;
+}
+
+.App {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+}
+
+.App-header {
+  font-size: 56px;
+}
+
+.App-header h1 {
+  margin: 0;
+}
+
+.App-header h1 span {
+  color: #91e9ff;
+}
+
+#App-content-select {
+  width: 60px;
+  height: 30px;
+  margin: 30px auto;
+  margin: auto 10px;
+  border: #91e9ff solid 1px;
+  background: #282c34;
+  color: #91e9ff;
+  font-size: 18px;
+  text-align-last: center;
+  text-align: center; 
+}
+
+#App-content-select:focus {
+  outline: none;
+  
+}
+
+.App-content .ul-name {
+  margin-right: 87px;
+  font-size: 28px;
+}
+
+.App-content .ul-age { 
+ margin-left: 87px;
+ font-size: 28px;
+}
+
+.App-content ul {
+  margin: 0;
+  padding: 0;
+  padding-top: 15px;
+  font-size: 24px;
+}
+
+.App-content li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin: 0 auto;
+}
+
+
+.App-footer {
+  display: flex;
+  justify-content: space-around;
+  font-size: 24px
+}
+
+.App-link {
+  color: rgb(246, 246, 246);
+  text-decoration: underline;
+  transition: ease 0.6s;
+}
+.App-link:hover {
+  transition: ease 0.5s;
+  color: rgb(133, 76, 167);
+  text-decoration: none;
+}
+
